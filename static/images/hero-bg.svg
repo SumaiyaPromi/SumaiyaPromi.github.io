@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE3EE"/><stop offset="0.55" stop-color="#FFF0F5"/><stop offset="1" stop-color="#FFF8FA"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<g filter="url(#b)"><circle cx="1300" cy="180" r="220" fill="#FFB8D2" opacity=".55"/><circle cx="180" cy="700" r="260" fill="#FFC9DC" opacity=".6"/><circle cx="820" cy="820" r="180" fill="#F9A8C9" opacity=".35"/></g>
+<path d="M240 148 Q244.84 165.16 262 170 Q244.84 174.84 240 192 Q235.16 174.84 218 170 Q235.16 165.16 240 148Z" fill="#F48FB7" opacity="0.8"/>
+<path d="M1380 502 Q1383.96 516.04 1398 520 Q1383.96 523.96 1380 538 Q1376.04 523.96 1362 520 Q1376.04 516.04 1380 502Z" fill="#F48FB7" opacity="0.7"/>
+<path d="M980 106 Q983.08 116.92 994 120 Q983.08 123.08 980 134 Q976.92 123.08 966 120 Q976.92 116.92 980 106Z" fill="#F48FB7" opacity="0.7"/>
+<path d="M120 418 Q122.64 427.36 132 430 Q122.64 432.64 120 442 Q117.36 432.64 108 430 Q117.36 427.36 120 418Z" fill="#F48FB7" opacity="0.6"/>
+<path d="M1480 756 Q1485.28 774.72 1504 780 Q1485.28 785.28 1480 804 Q1474.72 785.28 1456 780 Q1474.72 774.72 1480 756Z" fill="#F48FB7" opacity="0.6"/>
+<path d="M560 768 Q562.64 777.36 572 780 Q562.64 782.64 560 792 Q557.36 782.64 548 780 Q557.36 777.36 560 768Z" fill="#F48FB7" opacity="0.6"/>
+<path transform="translate(420 110) scale(1.3)" d="M0 6 C-14 -4 -8 -16 0 -9 C8 -16 14 -4 0 6Z" fill="#F06A9B" opacity="0.55"/>
+<path transform="translate(1190 700) scale(1.6)" d="M0 6 C-14 -4 -8 -16 0 -9 C8 -16 14 -4 0 6Z" fill="#F06A9B" opacity="0.5"/>
+<path transform="translate(80 230) scale(1.0)" d="M0 6 C-14 -4 -8 -16 0 -9 C8 -16 14 -4 0 6Z" fill="#F06A9B" opacity="0.5"/>
+<path transform="translate(1500 260) scale(1.2)" d="M0 6 C-14 -4 -8 -16 0 -9 C8 -16 14 -4 0 6Z" fill="#F06A9B" opacity="0.55"/>
+<path transform="translate(700 860) scale(1.1)" d="M0 6 C-14 -4 -8 -16 0 -9 C8 -16 14 -4 0 6Z" fill="#F06A9B" opacity="0.45"/>
+</svg>

@@ -1,0 +1,15 @@
+<section id="languages" class="section bg-muted-30">
+  <div class="container" style="max-width: 56rem;">
+    <div class="fade-in">
+      <h2 class="section-header mb-10"><span class="section-bar"></span>Languages</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {{ range .Site.Data.languages }}
+        <div class="card p-6 lang-card">
+          <p class="font-display font-bold" style="font-size: 1.5rem;">{{ .name }}</p>
+          <p class="text-primary font-semibold" style="margin-top: 0.25rem;">{{ .level }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

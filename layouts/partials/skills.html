@@ -1,0 +1,22 @@
+<section id="skills" class="section bg-background">
+  <div class="container" style="max-width: 56rem;">
+    <div class="fade-in">
+      <h2 class="section-header"><span class="section-bar"></span>Skills</h2>
+      <p class="text-sm text-muted mt-3 mb-10">Tap a skill to see what it is.</p>
+
+      <div style="display: flex; flex-direction: column; gap: 2rem;">
+        {{ range .Site.Data.skills }}
+        <div data-skill-category="{{ .category }}">
+          <h3 class="skill-category">{{ .category }}</h3>
+          <div class="flex flex-wrap gap-2">
+            {{ range .items }}
+            <button type="button" class="skill-pill" data-skill-name="{{ .name }}" data-skill-explanation="{{ .explanation }}" aria-expanded="false">{{ .name }}</button>
+            {{ end }}
+          </div>
+          <div class="skill-explanation" data-skill-explanation-box></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

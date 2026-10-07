@@ -1,0 +1,32 @@
+# The text under each skill is a short, neutral description of the technology.
+# Replace it with how you have used the skill if you'd like it to be more personal.
+- category: "Machine Learning & NLP"
+  items:
+    - name: "Natural Language Processing"
+      explanation: "Teaching computers to understand and work with human language."
+    - name: "Machine Learning"
+      explanation: "Building models that learn patterns from data."
+    - name: "PyTorch"
+      explanation: "An open-source deep learning framework."
+    - name: "TensorFlow"
+      explanation: "An open-source machine learning platform."
+
+- category: "Programming"
+  items:
+    - name: "Python"
+      explanation: "A general-purpose language widely used in ML and research."
+    - name: "C/C++"
+      explanation: "Compiled languages for fast, low-level programming."
+    - name: "JavaScript"
+      explanation: "The programming language of the web."
+
+- category: "Tools"
+  items:
+    - name: "Git & GitHub"
+      explanation: "Version control and code collaboration."
+    - name: "Linux / Bash"
+      explanation: "Working in the Linux command line and shell scripts."
+    - name: "Jupyter Notebook"
+      explanation: "Interactive notebooks for experiments and analysis."
+    - name: "LaTeX"
+      explanation: "A typesetting system for research papers and documents."

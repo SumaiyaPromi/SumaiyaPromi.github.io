@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'   # change to your real address before deploying
+languageCode = 'en-us'
+title = 'Sumiya Tabassum Promi | CSE Student & Researcher'
+theme = 'kiyomi-portfolio'
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+  # firstName is used in the hero greeting; fullName in the nav, footer and page title.
+  firstName = "Sumaiya"
+  lastName = ""
+  fullName = "Sumiya Tabassum Promi"
+  tagline = "CSE student and researcher using NLP and machine learning to make communication more accessible"
+  email = "262-25-020@diu.edu.bd"
+  linkedin = "https://www.linkedin.com/in/sumaiya-tabassum-prome-0a1016356"
+  github = "https://github.com/SumaiyaPromi"
+  location = "Dhaka, Bangladesh"
+  profileImage = "/images/profile.jpg"      # replace with your photo, e.g. /images/profile.jpg
+  heroBackground = "/images/hero-bg.svg"
+  favicon = "/favicon.svg"
+  ogImage = "/opengraph.svg"
+  description = "Portfolio of Sumiya Tabassum Promi, a CSE student and researcher in Dhaka working on Bangla Sign Language translation, NLP and machine learning."
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"

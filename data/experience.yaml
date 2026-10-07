@@ -1,0 +1,17 @@
+- company: "Bangla Sign Language Translation"
+  title: "Research focus"
+  period: "Ongoing"
+  bullets:
+    - "Developing NLP-based systems for BSL to text translation"
+    - "Aiming to improve accessibility for the Deaf community in Bangladesh"
+
+- company: "Natural Language Processing"
+  title: "Research interest"
+  bullets:
+    - "Investigating low-resource language processing"
+    - "Focus on Bangla language models"
+
+- company: "Machine Learning"
+  title: "Research interest"
+  bullets:
+    - "Applying ML techniques to real-world accessibility problems"

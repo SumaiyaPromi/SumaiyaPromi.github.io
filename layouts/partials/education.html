@@ -1,0 +1,20 @@
+<section id="education" class="section bg-background">
+  <div class="container" style="max-width: 56rem;">
+    <div class="fade-in">
+      <h2 class="section-header mb-10"><span class="section-bar"></span>Education</h2>
+      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+        {{ range .Site.Data.education }}
+        <div class="card p-6 edu-card">
+          <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 0.75rem;">
+            <div>
+              <h3 class="font-bold text-lg">{{ .degree }}</h3>
+              <p class="text-muted" style="margin-top: 0.25rem;">{{ .school }}</p>
+            </div>
+            {{ with .note }}<span class="edu-note">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

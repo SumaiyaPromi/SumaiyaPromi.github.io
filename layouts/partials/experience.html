@@ -1,0 +1,39 @@
+<section id="experience" class="section bg-muted-30">
+  <div class="container" style="max-width: 56rem;">
+    <div class="fade-in">
+      <h2 class="section-header mb-12"><span class="section-bar section-bar-wide"></span>Research Timeline</h2>
+
+      <div class="relative timeline">
+        <div style="display: flex; flex-direction: column; gap: 2.5rem;">
+          {{ range $idx, $exp := .Site.Data.experience }}
+          <div class="fade-in delay-{{ add $idx 1 }}">
+            <div class="flex" style="gap: 1.5rem;">
+              <div class="shrink-0" style="width: 2rem; display: flex; flex-direction: column; align-items: center; padding-top: 0.5rem;">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="flex-1" style="min-width: 0;">
+                <div class="mb-3">
+                  <h3 class="text-lg font-bold">{{ $exp.company }}</h3>
+                  <p class="text-sm font-semibold text-primary" style="margin-top: 0.125rem;">
+                    {{ $exp.title }}{{ with $exp.period }}<span class="timeline-period">{{ . }}</span>{{ end }}
+                  </p>
+                </div>
+                <div class="card p-5">
+                  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.625rem;">
+                    {{ range $exp.bullets }}
+                    <li class="flex items-start gap-3">
+                      <span class="bullet-heart" aria-hidden="true">&#9825;</span>
+                      <span class="text-muted leading-relaxed">{{ . }}</span>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
