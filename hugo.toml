@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'   # change to your real address before deploying
+baseURL = 'https://example.org/'   
 languageCode = 'en-us'
 title = 'Sumiya Tabassum Promi | CSE Student & Researcher'
 theme = 'kiyomi-portfolio'
@@ -14,7 +14,7 @@ disableKinds = ['taxonomy', 'term', 'RSS']
   linkedin = "https://www.linkedin.com/in/sumaiya-tabassum-prome-0a1016356"
   github = "https://github.com/SumaiyaPromi"
   location = "Dhaka, Bangladesh"
-  profileImage = "/images/profilepic.jpg"      # replace with your photo, e.g. /images/profile.jpg
+  profileImage = "/images/profile.jpg"      # replace with your photo, e.g. /images/profile.jpg
   heroBackground = "/images/hero-bg.svg"
   favicon = "/favicon.svg"
   ogImage = "/opengraph.svg"
