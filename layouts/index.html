@@ -3,6 +3,7 @@
   {{- partial "about.html" . -}}
   {{- with .Site.Data.education }}{{- partial "education.html" $ -}}{{ end -}}
   {{- with .Site.Data.experience }}{{- partial "experience.html" $ -}}{{ end -}}
+   {{- with .Site.Data.projects }}{{- partial "projects.html" $ -}}{{ end -}}
   {{- with .Site.Data.skills }}{{- partial "skills.html" $ -}}{{ end -}}
   {{- with .Site.Data.languages }}{{- partial "languages.html" $ -}}{{ end -}}
   {{- partial "contact.html" . -}}
